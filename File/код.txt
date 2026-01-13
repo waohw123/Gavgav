@@ -1,0 +1,21 @@
+<!-- snow -->
+<canvas id="snow" aria-hidden="true"></canvas>
+
+<style>
+#snow{
+  position: fixed;
+  left: 0; top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  pointer-events: none !important; /* важно */
+  user-select: none;
+}
+@media (prefers-reduced-motion: reduce){
+  #snow{ display: none !important; }
+}
+</style>
+
+<script defer src="/assets/js/script-snow.js"></script>
+<!-- end snow -->
+  
