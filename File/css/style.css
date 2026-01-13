@@ -8,8 +8,8 @@
 }
 .contaniner{
     width: 100vw;
-    height: 110vh;
-    background-color: rgb(49, 32, 239); 
+    height: 100vh;
+    background-color: rgb(44, 26, 236); 
     margin: 0 auto;
 
 }
@@ -29,6 +29,7 @@
 }
 .gallery{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 24px;
 }
@@ -49,8 +50,9 @@
 @media (max-width: 428px) {
 
 
-.container{
-    background-color: rgb(0, 255, 0);
+.contaniner{
+    background-color: rgb(5, 26, 92);
+    height: 100%
 }
 .gallery{
     flex-direction: column;
