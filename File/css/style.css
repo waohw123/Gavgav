@@ -8,10 +8,10 @@
 }
 .contaniner{
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-color: rgb(49, 32, 239); 
     margin: 0 auto;
-    position: fixed;
+
 }
 .name{
     font-family: MC;
@@ -28,7 +28,7 @@
     border-radius:4px ;
 }
 .gallery{
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
     margin-top: 24px;
 }
@@ -46,11 +46,11 @@
   #snow{ display: none !important; }
 }
 /*snow-end*/
-@media and (max-width: 390px) {
+@media (max-width: 428px) {
 
 
 .container{
-=background-color: green;
+    background-color: rgb(0, 255, 0);
 }
 .gallery{
     flex-direction: column;
